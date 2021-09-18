@@ -67,7 +67,7 @@ class Box extends Component{
 		if (this.props.dragDisabled) {
 			this.props.cropDisabledCallback();
 		} else {
-			this.props.onDoubleClickCropElement(this.props.identifier);			
+			this.props.onDoubleClickElement(this.props.identifier);			
 		}
 	};
 
